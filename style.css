@@ -1,6 +1,12 @@
 body {
     margin: 0;
+    background-color: deepskyblue;
 }
+
+main {
+    position: relative;
+}
+
 ul {
     text-align: center;
 list-style-type: none;
@@ -18,8 +24,10 @@ padding: 0;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
+    color: midnightblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .prev {
@@ -31,8 +39,10 @@ h1 {
 .next {
     position: absolute;
     top: 50%;
-    right: 0% ;
+    right: 0%;
 }
+
+
 
 
 
