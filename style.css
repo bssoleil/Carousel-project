@@ -22,5 +22,17 @@ h1 {
     text-align: center;
 }
 
+.prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    right: 0% ;
+}
+
 
 
