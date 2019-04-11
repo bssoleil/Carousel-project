@@ -51,5 +51,17 @@ button[name=mode] {
 }
 
 
+button:hover {
+    color: #fff;
+    background-color: #7f7f7f;
+}
+
+
+
+
+.darkmode {
+     background-color : grey;
+    }
+
 
 
