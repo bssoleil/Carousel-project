@@ -2,6 +2,7 @@
 
 let count = 0;
 let listImages =document.getElementsByClassName("imageCarousel");
+let tagBody = document.getElementsByTagName('body')[0];
 imgShow();
 function imgShow() {
     if(count > listImages.length - 1) {count = 0}
@@ -22,6 +23,13 @@ function imgPrev() {
     count--;
     imgShow();  
 }
+
+function darkMode() { 
+    tagBody.classList.toggle('darkMode');
+    }
+
+
+
 
 
 

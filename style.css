@@ -44,7 +44,7 @@ h1 {
     font-size: 3em;
 }
 
-button[name=mode] {
+button {
     position: absolute;
     top: 10px;
     left: 10px; 
@@ -57,11 +57,18 @@ button:hover {
 }
 
 
-
-
-.darkmode {
+.darkMode {
      background-color : grey;
+     opacity: 0.7;
     }
+
+.darkMode h1 {
+    color: #f5f5ff;
+}
+
+.darkMode button:hover {
+    color: #f5f5ff;
+}
 
 
 
